@@ -1,0 +1,246 @@
+/*
+Theme Name: Childish
+Theme URI: http://rice.hugs.nu
+Description: Le first theme! still in progress :P
+Version: 1.0
+Author: Alice
+Author URI: http://rice.hugs.nu
+*/
+
+
+body {
+padding: 0;
+margin: 0;
+background-color:#58D3F7;
+font: normal 75% tahoma, trebuchet ms;
+line-height:150%;
+color: #2e2e2e;
+} 
+
+#container {
+margin: 0 auto 0 auto;
+width: 55%;
+background-color: #F78181;
+padding: 10px;
+} 
+
+#top {
+margin: 0 auto 0 auto;
+background-image: url('bg.png');
+background-repeat: repeat-x;
+background-color:#58D3F7;
+height: 270px;
+}
+
+#header {
+height:130px;
+background-image: url('header.png');
+background-repeat:no-repeat;
+margin:0px auto 0px auto;
+width:600px;
+text-align:center;
+padding-top:100px;
+} 
+
+#navigation{
+margin: 0 auto 0 auto;
+width: 52%;
+padding:10px;
+text-align:center;
+}
+
+#navigation li{
+display: inline;
+}
+
+#navigation li a{
+list-style-type:none;
+list-style:none;
+background-color:#F78181;
+width:auto;
+margin: 0 1% 0 1%;
+padding:10px;
+text-decoration:none;
+font-family:century gothic, tahoma;
+font-size:190%;
+text-transform:lowercase;
+letter-spacing:-1px;
+font-weight:bold;
+font-style:normal;
+color: #FFFF00;
+}
+
+#navigation li a:hover{
+font-weight:normal;
+padding: 30px 10px 10px 10px;
+font-weight:bold;
+font-style:normal;
+}
+
+
+#sidebar {
+width: 20%;
+height: auto;
+float: left;
+padding: 10px;
+color:#444;
+} 
+
+
+#content {
+padding: 10px;
+} 
+
+#footer {
+clear: both;
+padding: 10px;
+}
+
+#side2{
+float:right;
+width:20%;
+height: auto;
+padding:10px;
+color:#444;
+}
+
+.box{
+margin-bottom:30px
+}
+
+h1 {
+font: normal 165%  tahoma;
+color:#610B21;
+text-transform:lowercase;
+text-align:right;
+letter-spacing:2px;
+padding: 10px 0px 0px 0px;
+}
+
+h2 {
+font: normal 85% century gothic, tahoma;
+color: #000083;
+text-transform:uppercase;
+letter-spacing:1px;
+}
+
+h3 {
+font: normal 75% tahoma;
+text-align:right;
+text-transform:lowercase;
+margin:0px;
+padding:0px;
+color:#610B21;
+}
+
+h4{
+color:#000083;
+font-size:150%;
+padding:0;
+margin:0;
+font-weight:normal;
+}
+
+.postmetadata {
+font: normal 85%/190% arial;
+}
+
+a:link, a:visited {
+color: #B40431;
+text-decoration:none;
+font-family:georgia, serif;
+font-style:normal;
+}
+
+a:hover {
+color: #000083;
+border-bottom: none;
+}
+
+a.external_icon {
+background: url(http://rice.hugs.nu/wp-content/themes/first/external.png) center right no-repeat;
+padding-right: 13px;
+}
+
+b, strong {
+color: #000083;
+}
+
+i, em {
+color: #FFFF00;
+}
+
+u,underline{
+text-decoration:none;
+border-bottom: #FFFF00 2px solid;
+color: #610B21;
+}
+
+blockquote{
+background-color: transparent;
+padding: 5px;
+margin:30px;
+border-bottom:#610B21 solid 5px;
+border-top:#610B21 solid 5px;
+text-align:center;
+}
+
+ul{
+list-style-type:circle;
+}
+
+hr{
+border: 1px solid #f26666; 
+}
+
+.textInput
+{
+border: 1px solid #2e2e2e;
+background: transparent;
+color: #2e2e2e;
+}
+
+::selection {
+background-color: #F6CECE;
+font-weight:normal;
+}
+
+::-moz-selection {
+background-color: #F6CECE;
+font-weight:normal;
+}
+
+.thecomment {
+margin: 10px 0 15px 0;
+border-bottom: 1px solid #610B21;
+}
+
+input, textarea, select{
+border: 1px solid #2e2e2e;
+background: transparent;
+color: #2e2e2e;
+}
+
+.footnotes {
+  font-size: 85%;
+  padding: 10px 0 10px 0;
+}
+
+.footnotes ol {
+  margin: 0px 0px 0px 3%;
+padding:0;
+}
+
+sup.footnote a {
+  text-decoration: none;
+  font-size: 105%;
+font-weight:bold;
+}
+
+sup.footnote {
+}
+
+.footnotereverse a {
+  padding: 0 0 0 5px;
+  text-decoration: none;
+}
